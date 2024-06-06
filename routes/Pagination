@@ -1,0 +1,8 @@
+For Pagination  need to configure App\AppServiceProvider
+
+use Illuminate\Pagination\Paginator;
+
+public function register(): void
+    {
+        Paginator::useBootstrapFive();
+    }
